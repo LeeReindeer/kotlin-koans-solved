@@ -181,3 +181,6 @@ fun task12(): List<Int> {
 ```
 
 ## 2. Conventions
+
+## License
+MIT
