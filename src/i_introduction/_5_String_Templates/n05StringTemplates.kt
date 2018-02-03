@@ -36,3 +36,11 @@ fun todoTask5(): Nothing = TODO(
     references = { getPattern(); month })
 
 fun task5()="""\d{2}\s$month\s\d{4}"""
+
+fun main(args:Array<String>){
+    //val note=Note(1,"test",".test.")
+    print("test".matches(parten().toRegex())).toString()
+}
+val puns= "(,|.|?|!)"
+
+fun parten()="""\w*"""

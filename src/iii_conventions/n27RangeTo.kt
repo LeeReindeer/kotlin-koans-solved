@@ -15,6 +15,12 @@ fun todoTask27(): Nothing = TODO(
 )
 
 fun checkInRange2(date: MyDate, first: MyDate, last: MyDate): Boolean {
-    todoTask27()
-//    return date in first..last
+    //todoTask27()
+    return date in first..last
+}
+
+fun main(args: Array<String>) {
+    for (i in 4 downTo 1) {
+        print(i)
+    }
 }

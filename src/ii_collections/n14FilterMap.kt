@@ -8,14 +8,14 @@ fun example1(list: List<Int>) {
     val squares = list.map { it * it }
 }
 
-fun Shop.getCitiesCustomersAreFrom(): Set<City> {
+fun Shop.getCitiesCustomersAreFrom(): Set<City> = (this.customers.map{ it.city }).toSet()
     // Return the set of cities the customers are from
-    todoCollectionTask()
-}
+    //todoCollectionTask()
 
-fun Shop.getCustomersFrom(city: City): List<Customer> {
+
+
+fun Shop.getCustomersFrom(city: City): List<Customer> = this.customers.filter { it.city == city }
     // Return a list of the customers who live in the given city
-    todoCollectionTask()
-}
+    //todoCollectionTask()
 
 

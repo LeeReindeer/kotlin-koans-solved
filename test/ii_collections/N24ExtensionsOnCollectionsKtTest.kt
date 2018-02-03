@@ -1,5 +1,6 @@
 package ii_collections
 
+import doSomethingStrangeWithCollection
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

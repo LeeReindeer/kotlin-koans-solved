@@ -21,3 +21,7 @@ fun task12(): List<Int> {
     return arrayListOf(1, 5, 2).sortedDescending()
 }
 
+fun main(args: Array<String>) {
+    print(task12())
+}
+
