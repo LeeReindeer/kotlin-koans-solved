@@ -3,10 +3,15 @@
 
 ## Contents
 - [1.Introduction](#1-introduction)
+
 - [2.Collection](#2-collections)
+
 - [3.Conventions](#3-conventions)
+
 - [4.Properties](#4-properties)
+
 - [5.Builders](#5-builders)
+
 - [6.Generics](#6-generics)
 
 
@@ -177,6 +182,7 @@ fun task12(): List<Int> {
 }
 ```
 
+<<<<<<< HEAD
 ## 2. Collections
 
 ### 2.13 Introduction
@@ -536,3 +542,6 @@ fun <T, C : MutableCollection<in T>> Collection<T>.partitionTo(c0: C, c1: C, pre
     return Pair(c0, c1)
 }
 ```
+
+## License
+MIT
